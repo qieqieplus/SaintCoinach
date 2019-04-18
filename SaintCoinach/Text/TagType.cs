@@ -16,7 +16,8 @@ namespace SaintCoinach.Text {
          * - 218 / DAh  Hour
          * - 217 / D9h  Minute
          */
-        Time            = 0x07,     // TODO: It seems to set the time used further on.
+        ResetTime = 0x06,
+        Time = 0x07,     // TODO: It seems to set the time used further on.
         If              = 0x08,
         Switch          = 0x09,
         IfEquals        = 0x0C,
@@ -57,6 +58,8 @@ namespace SaintCoinach.Text {
         SheetDe         = 0x32,
         SheetFr         = 0x33,
         InstanceContent = 0x40,     // Presumably so it can be clicked?
+        UIForeground    = 0x48,
+        UIGlow          = 0x49,
         ZeroPaddedValue = 0x50,
         Unknown60       = 0x60,     // TODO: Used as prefix in Gold Saucer announcements.
     }
